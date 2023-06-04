@@ -1,35 +1,112 @@
+body {
+    background-color: white;
+}
 .header {
     display: flex;
-    border: 5px solid salmon;
-    padding: 15px;
+    padding: 10px;
     height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .text {
     text-decoration: none;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     word-spacing: 55px;
-    padding: 5px;
-    border: 5px solid saddlebrown;
+    padding: 7px;
     text-align: center;
 }
+.p1 {
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+}
+.p2 {
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+}
+.p3 {
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+}
+.p4 {
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+}
 .btn {
-    margin-left: 200px;
+    margin-left: 70px;
     display: flex;
-    padding: 5px;
-    border: 5px solid saddlebrown;
-    word-spacing: 45px;
-    justify-content: center;
+    padding: 7px;
+    font-size: large;
+}
+form {
+    margin-right: 70px;
+}
+input {
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 7px;
 }
 .link {
     text-decoration: none;
     padding: 2px;
 }
 .login {
-    border: 5px solid black;
-    background-color: azure;
-    border-radius: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 7px;
+    margin-right: 70px;
     text-decoration: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.trial {
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: yellow;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.hero{
+    display: flex;
+    padding: 20px;
+}
+.hero-txt {
+    margin-left: 50px;
+    padding-top: 30px;
+    padding-left: 10px;
+    width: 1400px;
+}
+.land{
+    font-weight: bold;
+    font-size: 40px;
+}
+.long {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    text-align: left;
+}
+.short {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    background-color: yellow;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 15px;
+}
+.hero-img {
+    background-color: yellow;
+    margin-left: 100px;
+    height: 500px;
+    width: 1690px;
 }
