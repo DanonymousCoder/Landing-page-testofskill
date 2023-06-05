@@ -3,10 +3,14 @@ body {
 }
 .header {
     display: flex;
-    padding: 10px;
-    height: 50px;
+    padding: 0px;
+    height: 80px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: -webkit-sticky;
+    position: fixed;
+    overflow: hidden;
+    background-color: white;
+    margin-top: 0px;
+    align-items: center;
 }
 .text {
     text-decoration: none;
@@ -109,10 +113,11 @@ button{
     padding: 15px;
 }
 .hero-img {
-    background-color: yellow;
     margin-left: 100px;
+}
+.hero-img img {
     height: 500px;
-    width: 1690px;
+    width: 600px;
 }
 .ad{
     margin: 30px;
@@ -138,5 +143,4 @@ button{
 }
 .exp1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
 }
